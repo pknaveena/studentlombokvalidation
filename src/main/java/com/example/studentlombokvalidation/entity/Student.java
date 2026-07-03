@@ -33,4 +33,6 @@ public class Student {
 
     @NotBlank(message="Course cannot be empty")
     private String course;
+
+    private String parent;
 }
